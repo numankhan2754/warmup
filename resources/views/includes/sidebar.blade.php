@@ -29,13 +29,13 @@
                 <li class="sidebar-item">
                     <a class="sidebar-link" href="{{ route('home') }}" aria-expanded="false">
                         <span>
-                            {{-- <i class="ti ti-aperture"></i> --}}
-                            <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24"
+                            <i class="ti ti-aperture"></i>
+                            {{-- <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24"
                                 stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"
                                 height="20" width="20" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
                                 <polyline points="9 22 9 12 15 12 15 22"></polyline>
-                            </svg>
+                            </svg> --}}
                         </span>
                         <span class="hide-menu">Home</span>
                     </a>
@@ -43,15 +43,7 @@
                 <li class="sidebar-item">
                     <a class="sidebar-link" href="{{route('inbox')}}" aria-expanded="false">
                         <span>
-                            {{-- <i class="ti ti-shopping-cart"></i> --}}
-                            <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24"
-                                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"
-                                height="20" width="20" xmlns="http://www.w3.org/2000/svg">
-                                <polyline points="22 12 16 12 14 15 10 15 8 12 2 12"></polyline>
-                                <path
-                                    d="M5.45 5.11L2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z">
-                                </path>
-                            </svg>
+                            <i class="ti ti-inbox"></i>
                         </span>
                         <span class="hide-menu">Inboxes</span>
                     </a>
@@ -60,14 +52,7 @@
                     <a class="sidebar-link" href="{{ route('contact') }}" aria-expanded="false">
                         <span>
                             {{-- <i class="ti ti-currency-dollar"></i> --}}
-                            <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24"
-                                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"
-                                height="20" width="20" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M4 11a9 9 0 0 1 9 9"></path>
-                                <path d="M4 4a16 16 0 0 1 16 16"></path>
-                                <circle cx="5" cy="19" r="1"></circle>
-                            </svg>
-
+                            <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false" height="20" width="20" xmlns="http://www.w3.org/2000/svg"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg>
                         </span>
                         <span class="hide-menu">Compaigns</span>
                         <span class="hide-menu badge rounded-pill border border-primary text-primary fs-2 py-1 px-2">BETA</span>
@@ -76,15 +61,7 @@
                 <li class="sidebar-item">
                     <a class="sidebar-link" href="{{route('compaign')}}" aria-expanded="false">
                         <span>
-                            {{-- <i class="ti ti-cpu"></i> --}}
-                            <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24"
-                                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"
-                                height="20" width="20" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
-                                <circle cx="9" cy="7" r="4"></circle>
-                                <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
-                                <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
-                            </svg>
+                            <i class="ti ti-users"></i>
 
                         </span>
                         <span class="hide-menu">Contacts</span>
@@ -93,13 +70,7 @@
                 <li class="sidebar-item">
                     <a class="sidebar-link" href="index5.html" aria-expanded="false">
                         <span>
-                            {{-- <i class="ti ti-activity-heartbeat"></i> --}}
-                            <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24"
-                                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"
-                                height="20" width="20" xmlns="http://www.w3.org/2000/svg">
-                                <polyline points="9 11 12 14 22 4"></polyline>
-                                <path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path>
-                            </svg>
+                            <i class="ti ti-template"></i>
                         </span>
                         <span class="hide-menu">Templates</span>
                     </a>

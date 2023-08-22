@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\EmailController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -21,7 +21,9 @@ Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('ho
 Route::get('/inbox', [App\Http\Controllers\PageController::class, 'inbox'])->name('inbox');
 Route::get('/contact', [App\Http\Controllers\PageController::class, 'contact'])->name('contact');
 Route::get('/compaign', [App\Http\Controllers\PageController::class, 'compaign'])->name('compaign');
+// Route::get('/fetch-emails', [App\Http\Controllers\EmailController::class, 'fetchEmails'])->name('fetchEmails');
 
+// Route::get('/fetch-emails', 'EmailController@fetchEmails');
 
 /**
  * 

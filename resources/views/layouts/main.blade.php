@@ -21,8 +21,14 @@
     <link rel="stylesheet" href="https://demos.adminmart.com/premium/bootstrap/modernize-bootstrap/package/dist/libs/owl.carousel/dist/assets/owl.carousel.min.css">
     
     <!-- Core Css -->
-    <link  id="themeColors"  rel="stylesheet" href="https://demos.adminmart.com/premium/bootstrap/modernize-bootstrap/package/dist/css/style.min.css" />
-    <link rel="icon" href="/assets/icons_file/table-icons.woff">
+    <link  id="themeColors"  rel="stylesheet" href="/assets/css/style.min.css" />
+    <link  id="themeColors"  rel="stylesheet" href="/assets/css/tabler-icons/tabler-icons.css" />
+    <link  id="themeColors"  rel="stylesheet" href="/assets/css/tabler-icons/tabler-icons.min.css" />
+    <link  id="themeColors"  rel="stylesheet" href="/assets/css/tabler-icons/tabler-icons.scss" />
+    {{-- <link  id="themeColors"  rel="stylesheet" href="https://demos.adminmart.com/premium/bootstrap/modernize-bootstrap/package/dist/css/style.min.css" /> --}}
+
+    @include('includes.style')
+
 </head>
   <body>
     <!-- Preloader -->
