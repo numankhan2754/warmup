@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\EmailController;
+use App\Http\Controllers\HomeController;
+use App\Http\Controllers\PageController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -17,11 +19,11 @@ use App\Http\Controllers\EmailController;
 
 Auth::routes();
 
-Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-Route::get('/inbox', [App\Http\Controllers\PageController::class, 'inbox'])->name('inbox');
-Route::get('/contact', [App\Http\Controllers\PageController::class, 'contact'])->name('contact');
-Route::get('/compaign', [App\Http\Controllers\PageController::class, 'compaign'])->name('compaign');
-// Route::get('/fetch-emails', [App\Http\Controllers\EmailController::class, 'fetchEmails'])->name('fetchEmails');
+Route::get('/', [HomeController::class, 'index'])->name('home');
+Route::get('/inbox', [PageController::class, 'inbox'])->name('inbox');
+Route::get('/contact', [PageController::class, 'contact'])->name('contact');
+Route::get('/compaign', [PageController::class, 'compaign'])->name('compaign');
+Route::get('/fetch-emails', [App\Http\Controllers\EmailController::class, 'fetchEmails'])->name('fetchEmails');
 
 // Route::get('/fetch-emails', 'EmailController@fetchEmails');
 
